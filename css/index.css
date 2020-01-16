@@ -1,5 +1,4 @@
 
-
 header{
 	margin: 0;
 	padding: 0;
@@ -14,20 +13,22 @@ nav {
 ul {
 	text-align: right;
 }
-ul li {
+li {
 	font: 100% Verdana, 'Lucida Grande';
 	list-style-type: none;
+	display: inline;
 }
 ul li a {
 	height: 200px;
 	color: #777;
+	display: inline;
 }
 .log{
 	align-self: left;
 }
 .navigation{
 	text-align: right;  
-	display: inline;
+	
 }
 .welcome_top{
 
