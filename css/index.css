@@ -1,9 +1,13 @@
-.navigation{
+.navbar{
 	width: 100%;
 	height: 8%;
-	text-align: right;
-
-    
+}
+.log{
+	align-self: left;
+}
+.navigation{
+	text-align: right;  
+	display: inline;
 }
 .welcome_top{
 
