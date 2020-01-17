@@ -33,8 +33,16 @@ header ul li a {
 	display: inline;
 	text-decoration: none;
 }
-.log{
-	align-self: left;
+
+.welcome_text{
+    margin-top: 5%;
+	margin-left: 4%;
+	width: 30%;
+	height: 20%;
+	z-index: 1;
+}
+.welcome_img{
+	z-index: 4;
 }
 .navigation{
 	
