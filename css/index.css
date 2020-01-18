@@ -1,6 +1,6 @@
 :root{
 	scroll-behavior: smooth;
-};
+}
 body{
     max-width: 1920px;
     margin:auto;
@@ -33,27 +33,21 @@ header ul li a {
 	display: inline;
 	text-decoration: none;
 }
-content{
+main .content{
+	height: 900px;
+	margin: 0;
+	background-image: url("../welcome.jpg");
+    background-position: top;
 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: grey;
+  
 }
-.welcome_text{
+main .welcome{
     margin-top: 5%;
 	margin-left: 4%;
 	width: 30%;
 	height: 20%;
-	background-image: url("welcome.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
-
-.welcome_top{
-
-}
-.welcome_descrip{
-
-}
-.welcome_bot{
-	
-}
