@@ -116,8 +116,11 @@ content .proj{
 	background-repeat: no-repeat;
 	overflow: hidden;
 	justify-content: flex-end;
+}
 
-
-
-
+content h1{
+    font-size: 1.7vw;
+    color: white;
+    text-align: right:;
+    font-family: 'Alata', sans-serif;	
 }
