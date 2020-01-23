@@ -73,7 +73,7 @@ main .welcome{
 
 content .about{
 	width: 100%;
-	height: 600px;
+	height: 50%;
 	margin: 0 auto;
 	
 	overflow: hidden;
@@ -117,5 +117,17 @@ content .proj{
 	overflow: hidden;
 	justify-content: flex-end;
 
-	
+	color: white;
+	text-align: left;
+    font-family: 'Alata', sans-serif;
+}
+
+content p{
+    font-size: 2.7vw;
+}
+
+content h3{
+	font-size: 2vw;
+	margin-left: 80px;
+	width: 50%;
 }
