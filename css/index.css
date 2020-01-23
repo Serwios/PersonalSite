@@ -116,12 +116,6 @@ content .proj{
 	background-repeat: no-repeat;
 	overflow: hidden;
 	justify-content: flex-end;
-}
 
-content .proj{
- font-size: 1.7vw;
- color: white;
- text-align: center;
- font-family: serif;
+	
 }
-
