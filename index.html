@@ -4,54 +4,57 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	 <title>YK</title>
-	 <link rel="stylesheet" type="text/css" href="css\index.css">
+	 <link rel="stylesheet" href="css/index.css">
+   <link rel="stylesheet" href="css\animate.css">
 	 <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
 	 <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 	 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+   <script src="js\wow.min.js"></script>
+   <script>
+              new WOW().init();
+   </script>
  </head>
  <body>
 
  <header>
- <div class="nav"> 
+ <div id="nav"> 
 	<ul class="nav_bill">
-	     <li><a href="#welcome_text">Home</a></li>
-	     <li><a href="#about">About</a></li>
-		   <li><a href="#proj">Projects</a></li>
-		   <li><a href="#connect">Connect</a></li>            				
+	     <li><a href="#welcome_text">Home  </a></li>
+	     <li><a href="#about">About </a></li>
+		   <li><a href="#proj">Projects  </a></li>
+		   <li><a href="#connect">Connect  </a></li>            				
 	</ul>
  </div>
  </header>
  
 <main>
-  <div class="welcome_text" id="welcome_text">
- 	  <h1 id="welcome">
+  <div  id="welcome_text">
+ 	  <h1 class="welcome">
  		Welcome
- 	  <br><br>
- 		Hello! My name is Yaroslav and you are on my personal site. This site was created for will be exemple of my basic knowledges html, css and javascript. By the way this site must use mySQL. However here you can look on my programming and technical works. 
- 	  
- 		Good Luck
- 	 </h1>
+    </h1>
+ 		 <h1 class="welcome">Hello! My name is Yaroslav and you are on my personal site. This site was created for will be exemple of my basic knowledges html, css and javascript. By the way this site must use mySQL. However here you can look on my programming and technical works. Good Luck
+ 	   </h1>
   </div>
 </main>
 <content>
-  <div class="about" id="about">
+  <div id="about">
     <h2><p>About</p>
-     <br>
+    
         I am currently a student. I study on technical specialization in the Lviv college of CT&T. My preparation for goverment and IT exams take too much time. By the way, all my free time i use for learning Java and softwere technologies. Maven, Spring, Git, huge variations of interesting library's. It's hard speak about it brifly 'cause for me it is more then lines of code. It's some type of art. If you have something question please, write me.</h2>
-        <br><br><input type="" name=""><br><br><br>
+        <button type="" name="" class="download">DOWNLOAD PORTF</button>
  </div>
-  <div class="proj" id="proj">
+  <div id="proj">
     
   	 <h3>
   	 	<p>PROJECTS</p>
-  	 	Here you can look on my little projects. There are not too much, but here is text text text text text text text text text text text text textt text text text text text text text text text text text text textt 
+  	 	Here you can look on my little projects. There are not too much, but more ptojects on my gitHUB;
   	 </h3>
 
-      <div class="proj_list">
-        <div id="one_sch">Schedsy</div>
-        <div id="one_gef">Gefest</div>
-        <div id="one_bin">Binom</div>
-        <div id="one_phi">Philoopho</div>
+      <div id="proj_list">
+         <div id="one_sch" class="wow fadeInRight">Schedsy</div>
+         <div id="one_gef" class="wow fadeInRight">Gefest</div>
+         <div id="one_bin" class="wow fadeInRight">Binom</div>
+         <div id="one_phi" class="wow fadeInRight">Philoopho</div>
       </div>
 
   
