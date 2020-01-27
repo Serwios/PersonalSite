@@ -186,3 +186,23 @@ content #one_bin{
 content #one_phi{
 	background-color: rgb(112, 111, 111, 0.68);
 }
+
+content #connection{
+	
+	height: 20vw;
+	background-image: url("../img/about.jpg");
+
+}
+
+#basement{
+	width: 100%;
+	height: 5vw;
+	background-color: #222;
+	color: grey;
+	text-align: left;
+
+}
+#basement h4{
+	margin: 0;
+	font-size: 1vw;
+}
