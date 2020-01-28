@@ -10,12 +10,12 @@ body{
 
 header #nav {
 	width: 100%;
-	height: 5vw;
+	
 	background: #222;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	font-size: 1.3vw;
+	font-size: 0.5vw;
 	text-align: right;
 
 	position: fixed;
@@ -134,6 +134,7 @@ content button{
 content button:hover {
   background-color: black; 
   color: white;
+
 }
 
 content #proj{
@@ -188,21 +189,43 @@ content #one_phi{
 }
 
 content #connection{
-	
+	margin: 0;
 	height: 20vw;
 	background-image: url("../img/about.jpg");
+	overflow: hidden;
+	justify-content: flex-end;
+	text-align: center;
+
+}
+content #connection h4{
+	margin-left: 3vw;
+	font-size: 1vw;
+	margin-bottom: 0;
+	color: white;
+	margin-left: 3vw;
+	font-size: 2.7vw;
+	font-family: 'Alata', sans-serif;
+
+}
+content #connection p{
+	font-size: 1vw;
+	color: white;
+	font-size: 2.7vw;
 
 }
 
-#basement{
+footer #basement{
 	width: 100%;
-	height: 5vw;
+	height: 3vw;
 	background-color: #222;
 	color: grey;
 	text-align: left;
 
 }
-#basement h4{
+footer #basement h5{
 	margin: 0;
 	font-size: 1vw;
+	text-align: left;
+	margin-left: 3vw;
+	font-family: 'Alata', sans-serif;
 }
