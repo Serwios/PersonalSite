@@ -88,6 +88,7 @@ content #about{
 	justify-content: flex-end;
 
 	background-image: url("../img/about.jpg");
+
 	background-position: top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -242,5 +243,15 @@ footer #basement h6{
 	text-align: right;
 	margin-right: 2vw;
 	font-family: 'Alata', sans-serif;
+}
+
+button .Gmail{
+
+}
+
+button .Gmail:hover {
+  background-color: black; 
+  color: red;
+
 }
 
