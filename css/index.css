@@ -39,6 +39,11 @@ header li {
 	display: inline;
     font-size: 150%;
 	padding: 1.2%;
+
+    transition-property: background-color, color;
+    transition-duration: 3s;
+    transition-delay: 0s, 1s;
+    transition-timing-function: cubic-bezier(0.1, 0.8, 0.5, 2), linear;
 }
 header ul li a {
 	height: 200px;
