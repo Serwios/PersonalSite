@@ -55,7 +55,6 @@ header ul li a {
 
 }
 
-
 main{
 	margin-top: 0;
 	display: flex;
@@ -84,6 +83,29 @@ main #welcome{
 	color: white;
 }
 
+main #welcome button{
+
+	margin-top: 4%;
+	margin-bottom: 4%;
+
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+	height: 2vw;
+	width: 20vw;
+	font-size: 0.8vw;
+	border: black;
+
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+
+
+}
+main button:hover {
+  background-color: black; 
+  color: white;
+
+}
 
 content #about{
 	width: 100%;
