@@ -2,6 +2,9 @@
 :root{
 	scroll-behavior: smooth;
 }
+html { 
+	overflow-x: hidden;
+}
 body{
     max-width: 1920px;
     margin:auto;
@@ -81,13 +84,10 @@ main #welcome button{
 
 	-webkit-transition-duration: 0.4s; 
     transition-duration: 0.4s;
-
-
 }
 main button:hover {
   background-color: black; 
   color: white;
-
 }
 content #about{
 	width: 100%;
