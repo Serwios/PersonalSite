@@ -43,6 +43,7 @@ header ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 2vw;
 }
+
 main{
 	margin-top: 0;
 	display: flex;
@@ -114,6 +115,7 @@ content #about h2{
 	width: 80%;
 	margin: 0 auto;
 }
+
 content input{
 	margin-top: 5px;
     font-size: 1.7vw;
@@ -172,17 +174,32 @@ content #proj_list{
 content #one_sch{
 	margin-bottom: 1vw;
 	background-color: rgb(112, 111, 111, 0.68);
+	text-decoration: none;
+
+	border-top-left-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
+	
 }
 content #one_gef{
 	margin-bottom: 1vw;
+	 text-decoration: none;
 	background-color: rgb(112, 111, 111, 0.68);
+
+	border-top-left-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
 }
 content #one_bin{
 	margin-bottom: 1vw;
 	background-color: rgb(112, 111, 111, 0.68);
+
+	border-top-left-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
 }
 content #one_phi{
 	background-color: rgb(112, 111, 111, 0.68);
+
+	border-top-left-radius: 2em 2em;
+    border-bottom-left-radius: 2em 2em;
 }
 content #connection{
 	margin: 0;
