@@ -1,0 +1,5 @@
+Main colors:
+black 50%;RGB(15,15,15)
+yellow 30%;
+white 20%;
+red 10;
