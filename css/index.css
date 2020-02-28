@@ -24,12 +24,11 @@ header #nav {
 
 header ul {
 	text-align: right;
-	display: flex;
     justify-content: flex-end;
     list-style-type: none;
 }
 header li {
-	font: 100% Verdana, 'Lucida Grande';
+	font: Verdana, 'Lucida Grande';
 	list-style-type: none;
 	display: inline;
     font-size: 150%;
