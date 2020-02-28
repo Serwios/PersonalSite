@@ -21,7 +21,7 @@ header #nav {
 
 	position: fixed;
 }
-}
+
 header ul {
 	text-align: right;
 	display: flex;
@@ -166,6 +166,7 @@ content h3{
 	justify-content: flex-end;
 }
 content .menu {
+	margin-top: 3%;
     display:flex;
     max-width: 100%;
     height: auto
