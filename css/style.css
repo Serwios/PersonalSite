@@ -159,26 +159,19 @@ content h3{
 	overflow: hidden;
 	justify-content: flex-end;
 }
-content #proj_list{
-    text-align: left;
-    margin-left: 60vw;
-    font-size: 2vw;
-    line-height: 2em; 
+content .menu {
+	margin-top: 3%;
+    display:flex;
+    max-width: 100%;
+    height: auto
 }
-content #one_sch{
-	margin-bottom: 1vw;
-	background-color: rgb(112, 111, 111, 0.68);
+content  .frame{
+    display:inline-block;
+    width: 20%
 }
-content #one_gef{
-	margin-bottom: 1vw;
-	background-color: rgb(112, 111, 111, 0.68);
-}
-content #one_bin{
-	margin-bottom: 1vw;
-	background-color: rgb(112, 111, 111, 0.68);
-}
-content #one_phi{
-	background-color: rgb(112, 111, 111, 0.68);
+
+content img{
+    width: 100%
 }
 content #connection{
 	margin: 0;
